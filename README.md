@@ -15,8 +15,8 @@ Timer-based scheduler...
 ## Step 1 – Real-Time Scheduler
 System Clock (84 MHz)-> TIM2 Timer -> (every 10ms) Timer Interrupt -> ECU_10ms_Task()
 
--Timer used: TIM2
--Timer period: 10 ms
--Interrupt mode: Enabled (NVIC)
--Callback function: HAL_TIM_PeriodElapsedCallback()
+- Timer used: TIM2
+- Timer period: 10 ms
+- Interrupt mode: Enabled (NVIC)
+- Callback function: HAL_TIM_PeriodElapsedCallback()
 
